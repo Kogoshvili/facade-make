@@ -1,0 +1,12 @@
+{
+  "name": "facade-make",
+  "version": "0.0.1",
+  "description": "make starting facade project",
+  "main": "index.js",
+  "bin": "index.js",
+  "author": "Andrian Kogoshvili",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}
