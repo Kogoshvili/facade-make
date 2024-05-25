@@ -1,8 +1,8 @@
 {
-  "name": "facade",
-  "version": "1.0.0",
+  "name": "facade-app",
+  "version": "0.0.1",
   "description": "",
-  "main": "server.js",
+  "private": true,
   "scripts": {
     "build": "npm run build:server && npm run build:client",
     "build:prod": "npm run build:server -- --mode production && npm run build:client -- --mode production",
@@ -14,7 +14,7 @@
     "watch:client": "webpack --config-name client --watch",
     "dev": "concurrently \"npm run watch\" \"npm run serve\"",
     "prod": "concurrently \"npm run watch:prod\" \"npm run serve\"",
-    "serve": "nodemon ./dist/server.js --watch ./dist --watch ./public",
+    "serve": "nodemon --watch dist --watch public ./dist/server.js",
     "lint": "eslint . --ext .ts --fix",
     "build:analyze": "webpack --config-name client --analyze",
     "build:prod:analyze": "webpack --config-name client --mode production --analyze"
