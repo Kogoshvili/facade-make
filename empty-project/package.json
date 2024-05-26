@@ -25,7 +25,7 @@
   "dependencies": {
     "axios": "^1.6.8",
     "dotenv": "^16.4.5",
-    "@kogoshvili/facade": "file:../facade",
+    "@kogoshvili/facade": "^0.0.1",
     "nodemon": "^3.1.0"
   },
   "devDependencies": {

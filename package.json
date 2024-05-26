@@ -6,6 +6,10 @@
   "bin": "index.js",
   "author": "Andrian Kogoshvili",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kogoshvili/facade-make.git"
+  },
   "dependencies": {
     "fs-extra": "^11.2.0"
   }
