@@ -1,4 +1,4 @@
-import { registerPages, initServer } from 'facade-js/server'
+import { registerPages, initServer } from '@kogoshvili/facade/server'
 
 registerPages({})
 

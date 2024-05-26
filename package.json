@@ -1,5 +1,5 @@
 {
-  "name": "facade-js-make",
+  "name": "@kogoshvili/facade-make",
   "version": "0.0.1",
   "description": "make starting facade project",
   "main": "index.js",
