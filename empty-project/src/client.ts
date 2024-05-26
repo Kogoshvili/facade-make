@@ -1,4 +1,4 @@
-import { registerComponents, initialize } from 'facade/client'
+import { registerComponents, initialize } from 'facade-js/client'
 
 registerComponents({})
 
